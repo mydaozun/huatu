@@ -246,7 +246,7 @@ function LoinOut() {
         if (r) {
             username = ""; //用户名清空
             closeMyWindow(); //关闭协同处理窗口
-            $.messager.alert('协同操作退出', '协同操作退出成功！');
+            $。messager.alert('协同操作退出', '协同操作退出成功！');
         }
     });
 }
@@ -885,8 +885,8 @@ $('#mnHelp div').click(function () {
             case "mnHelphelp": //WebPhotoshop帮助
                 window.open("Code/Help.htm");
                 break;
-            case "mnHelphelpsite": //WebPhotoshop网站
-                window.open("https://zaixianhuatu.org");
+            case "mnHelphelpsite": //52DH网站
+                window.open("https://52dh.cc.cd");
                 break;
             case "mnHelpabout": //关于WebPhotoshop
                 showMyWindow('icon-about', '关于WebPhotoshop', 'Code/About.htm', 600, 400, true, false, false, true);
