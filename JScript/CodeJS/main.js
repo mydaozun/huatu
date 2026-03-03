@@ -886,8 +886,8 @@ $('#mnHelp div').click(function () {
                 window.open("Code/Help.htm");
                 break;
             case "mnHelphelpsite": //网站
-                 window.open("https://ht.mmaiverse.com/");
-                break;                
+                 window.open("https://52dh.cc.cd");
+                break;
             case "mnHelpabout": //关于WebPhotoshop
                 showMyWindow('icon-about', '关于WebPhotoshop', 'Code/About.htm', 600, 400, true, false, false, true);
                 break;
