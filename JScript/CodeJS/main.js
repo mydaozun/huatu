@@ -1,4 +1,4 @@
-﻿/*
+/*
 * 对前端的操作创建
 * 作者：Tim  北京
 * 2014-5-12创建
@@ -246,7 +246,7 @@ function LoinOut() {
         if (r) {
             username = ""; //用户名清空
             closeMyWindow(); //关闭协同处理窗口
-            $。messager.alert('协同操作退出', '协同操作退出成功！');
+            $.messager.alert('协同操作退出', '协同操作退出成功！');
         }
     });
 }
@@ -525,7 +525,7 @@ $('#mnConslate div').click(function () {
                 break;
             case "mnConslateblur": //模糊
                 var win = $.messager.progress({
-                    title: '浮雕'，
+                    title: '浮雕',
                     msg: '处理...'
                 });
                 blur();
