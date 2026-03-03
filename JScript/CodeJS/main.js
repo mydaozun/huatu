@@ -885,7 +885,7 @@ $('#mnHelp div').click(function () {
             case "mnHelphelp": //WebPhotoshop帮助
                 window.open("Code/Help.htm");
                 break;
-            case "mnHelphelpsite":
+            case "mnHelphelpsite": 
                 window.open("https://52dh.cc.cd");
                 break;
             case "mnHelpabout": //关于WebPhotoshop
