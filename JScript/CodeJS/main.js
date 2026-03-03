@@ -525,7 +525,7 @@ $('#mnConslate div').click(function () {
                 break;
             case "mnConslateblur": //模糊
                 var win = $.messager.progress({
-                    title: '浮雕',
+                    title: '浮雕'，
                     msg: '处理...'
                 });
                 blur();
@@ -885,6 +885,9 @@ $('#mnHelp div').click(function () {
             case "mnHelphelp": //WebPhotoshop帮助
                 window.open("Code/Help.htm");
                 break;
+            case "mnHelphelpsite": //网站
+                 window.open("https://ht.mmaiverse.com/");
+                break;                
             case "mnHelpabout": //关于WebPhotoshop
                 showMyWindow('icon-about', '关于WebPhotoshop', 'Code/About.htm', 600, 400, true, false, false, true);
                 break;
