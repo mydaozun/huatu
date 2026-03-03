@@ -886,7 +886,10 @@ $('#mnHelp div').click(function () {
                 window.open("Code/Help.htm");
                 break;
             case "mnHelphelpsite": //网站
-                 window.open("https://52dh.cc.cd");
+                window.open("https://52dh.cc.cd");
+                break;
+            case "mnHelpsend": //反馈或报告
+                // 使用默认的mailto链接，无需额外处理
                 break;
             case "mnHelpabout": //关于WebPhotoshop
                 showMyWindow('icon-about', '关于WebPhotoshop', 'Code/About.htm', 600, 400, true, false, false, true);
